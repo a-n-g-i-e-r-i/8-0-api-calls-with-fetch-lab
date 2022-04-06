@@ -5,3 +5,4 @@ workflows:
   test:
     jobs:
       - node/test
+      - cypress/run
