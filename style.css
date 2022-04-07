@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;700&display=swap');
 
 html,
 body {
@@ -14,7 +14,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-weight: normal;
   margin: 0;
 }
@@ -30,7 +30,7 @@ header h1 {
 }
 
 header h1 span {
-  font-family: "EB Garamond", serif;
+  font-family: 'EB Garamond', serif;
   font-size: 18px;
   margin-left: 10px;
 }
@@ -63,6 +63,38 @@ button:hover {
   padding: 25px;
 }
 
+.hard-card {
+  border-color: #b20707;
+}
+
+.medium-card {
+  border-color: #b29807;
+}
+
+.easy-card {
+  border-color: #07b246;
+}
+
 .hidden {
   display: none;
+}
+
+.hard {
+  color: #b20707;
+  font-weight: bolder;
+}
+
+.medium {
+  color: #b29807;
+  font-weight: bolder;
+}
+
+.easy {
+  color: #07b246;
+  font-weight: bolder;
+}
+
+.correct {
+  background-color: #a9e8bd;
+  font-weight: bolder;
 }
